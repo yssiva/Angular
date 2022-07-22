@@ -1,0 +1,17 @@
+<nav>
+  <h2>Rent Slot</h2>
+ </nav>
+<table class="table">
+ <thead>
+   <tr align="Auto">
+     <th scope="col">SlotId</th>
+     <th scope="col">Available</th>
+    </tr>
+ </thead>
+ <tbody>
+   <tr *ngFor="let slot of ports">
+     <td scope="row">{{slot.slotId}}</td>
+     <td>{{slot.status}}</td>
+      </tr>
+      </tbody>
+</table>
